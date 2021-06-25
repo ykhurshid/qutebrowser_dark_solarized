@@ -1,11 +1,7 @@
-# Qutebrowser Dark Solarized
+# Qutebrowser Dark Dracula
 
-[Dark solarized](http://ethanschoonover.com/solarized) css stylesheet for the [qutebrowser](https://qutebrowser.org). Make the web like your terminal ! :)
+This is a fork of the [Dark solarized](http://ethanschoonover.com/solarized) css stylesheet for the [qutebrowser](https://qutebrowser.org). This is the same thing but themed towards the [Dracula](https://draculatheme.com) instead.
 
-I tried to adapt it to content sites that did not work well (documentation, media ...).
-
-Please note I'm not a front guy and there is a lot to improve.
-I just wanted to have all my sites in dark :)
 
 ## Screenshots
 
@@ -20,8 +16,8 @@ I just wanted to have all my sites in dark :)
 ## Style
 
 There are two stylesheets :
-- *solarized-dark.css* comes straight from [alphapapa](https://github.com/alphapapa/solarized-everything-css)
-- *custom_solarized.css* adapts it to different websites I tested
+- *dracula-dark.css* 
+- *custom_dracula.css* 
 
 
 ## Usage
@@ -33,7 +29,7 @@ Tape `:set` and put their names in `content.user_stylesheets` with your path.
 Example :
 
 ```
-["solarized-dark.css", "custom_solarized.css"]
+["dracula-dark.css", "custom_dracula.css"]
 
 ```
 
@@ -43,8 +39,8 @@ In `config.py` :
 
 ```
 c.content.user_stylesheets = [
-    'solarized-dark.css',
-    'custom_solarized.css'
+    'dracula-dark.css',
+    'custom_dracula.css'
 ]
 ```
 
